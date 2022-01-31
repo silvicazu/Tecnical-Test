@@ -6,7 +6,7 @@ url = "https://swapi.dev/api/"
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "LLA DevOps test"}
 
 @app.get("/people")
 async def get_people(search: str | None = None, page: int | None = None):
