@@ -1,7 +1,7 @@
 import pytest
 from httpx import AsyncClient
 
-from ..api.main import app
+from app.main import app
 
 BASE_URL="http://localhost"
 
