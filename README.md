@@ -17,6 +17,7 @@ This is a Python application for testing your DevOps abilities.
 
 
 ## Deliverables
+1. You must to fork or clone this project in yout prefference Git platform with sufficiente permissions to check the CI/CD pipeline logs.
 1. You add a terraform project to manage your local Kubernetes cluster and schedule the application using a built docker image.
 1. You must install a local self-hosted Runner (it is highly recommended to use dockers by creating them with the docker-compose tool) 
     * [gitlab](https://docs.gitlab.com/runner/install/)
@@ -25,7 +26,7 @@ This is a Python application for testing your DevOps abilities.
 1. You must create a CI pipeline and run it in every merge request, run the pytests and upload the junit xml report as an artifact.
 1. From master branch, create a TAG called **release/1.0.0**
 1. Create a CD pipeline to build a docker image from the release tags, upload it to a container registry (you can use the free gitlab or docker hub service), and deploy it to the local Kubernetes cluster.
-1. A document describing the CI/CD workflow.
+1. A document describing the CI/CD workflow with screenshots of the diferent results.
 
 ## Observations
 * You must add the terraform project to the git repository.
